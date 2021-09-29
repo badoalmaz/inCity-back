@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/sequelize": "^1.2.1",
+    "admin-bro": "^4.0.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.6.5",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "tslib": "^2.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
